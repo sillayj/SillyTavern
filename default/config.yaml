@@ -22,9 +22,13 @@ port: 8000
 autorunPortOverride: -1
 # -- SECURITY CONFIGURATION --
 # Toggle whitelist mode
+<<<<<<< Updated upstream
 whitelistMode: true
 # Whitelist will also verify IP in X-Forwarded-For / X-Real-IP headers
 enableForwardedWhitelist: true
+=======
+whitelistMode: false
+>>>>>>> Stashed changes
 # Whitelist of allowed IP addresses
 whitelist:
   - ::1
@@ -33,8 +37,8 @@ whitelist:
 basicAuthMode: false
 # Basic authentication credentials
 basicAuthUser:
-  username: "user"
-  password: "password"
+  username: "sillyj"
+  password: "h0mestaku"
 # Enables CORS proxy middleware
 enableCorsProxy: false
 # -- REQUEST PROXY CONFIGURATION --
