@@ -5,7 +5,7 @@ import path from 'node:path';
 import mime from 'mime-types';
 import express from 'express';
 import sanitize from 'sanitize-filename';
-import { Jimp, JimpMime } from 'jimp';
+import { Jimp, JimpMime } from '../jimp.js';
 import { sync as writeFileAtomicSync } from 'write-file-atomic';
 
 import { getAllUserHandles, getUserDirectories } from '../users.js';
